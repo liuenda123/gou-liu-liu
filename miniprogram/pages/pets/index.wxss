@@ -1,0 +1,1 @@
+.pet { display:flex; align-items:center; }.pet-icon { font-size:64rpx; margin-right:24rpx; }.title-small { font-size:32rpx; font-weight:600; }

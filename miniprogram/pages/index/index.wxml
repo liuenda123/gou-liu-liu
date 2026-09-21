@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="topbar"><text class="title">狗遛遛</text><text class="city">{{city}} ▼</text></view>
+  <view class="hero card">
+    <view class="hero-title">今天想让狗狗出去走走？</view>
+    <view class="muted">附近有经过审核的遛狗员为你服务</view>
+    <button class="primary-button" bindtap="goCreate">发布遛狗需求</button>
+  </view>
+  <view class="section-title">附近服务者</view>
+  <view wx:for="{{walkers}}" wx:key="id" class="card walker" bindtap="goWalkers">
+    <view class="avatar">🐕</view>
+    <view class="walker-main"><view class="walker-name">{{item.name}}</view><view class="muted">⭐ {{item.rating}} · 已完成{{item.orders}}单</view><view class="muted">擅长：{{item.tags}}</view></view>
+    <view class="price">¥{{item.price}}<text class="muted">/30分钟</text></view>
+  </view>
+  <view class="section-title">快捷入口</view>
+  <view class="quick card" bindtap="goPets"><text>🐾 我的宠物</text><text>›</text></view>
+</view>

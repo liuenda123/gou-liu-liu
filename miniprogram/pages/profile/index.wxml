@@ -1,0 +1,1 @@
+<view class="container"><view class="user card"><view class="avatar">🙂</view><view><view class="title">微信用户</view><view class="muted">{{role}}</view></view></view><view class="menu card"><view>我的宠物 <text>›</text></view><view>我的订单 <text>›</text></view><view bindtap="applyWalker">申请成为遛狗员 <text>›</text></view><view>联系客服 <text>›</text></view></view></view>

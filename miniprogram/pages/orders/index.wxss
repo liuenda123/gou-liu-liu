@@ -1,0 +1,1 @@
+.order-head { display:flex; justify-content:space-between; margin-bottom:16rpx; }.status { color:#f07818; }.amount { text-align:right; color:#f07818; font-size:34rpx; font-weight:700; margin-top:14rpx; }.empty { text-align:center; color:#999; padding-top:180rpx; }

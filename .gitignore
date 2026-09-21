@@ -1,0 +1,11 @@
+# 微信小程序构建产物与本地配置
+*.log
+.DS_Store
+node_modules/
+dist/
+miniprogram/project.private.config.json
+server/.env
+server/.env.*
+!server/.env.example
+*.pem
+*.key

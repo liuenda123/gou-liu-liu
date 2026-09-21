@@ -1,0 +1,4 @@
+{
+  "desc": "狗遛遛小程序原型",
+  "rules": [{ "action": "allow", "page": "*" }]
+}

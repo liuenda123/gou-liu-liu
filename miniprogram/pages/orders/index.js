@@ -1,0 +1,1 @@
+Page({ data: { orders: [] }, onShow() { this.setData({ orders: [{ id: 'GL20260921001', status: '待接单', date: '今天 18:00', duration: '30分钟', amount: '27.00' }] }); }, viewOrder() { wx.showToast({ title: '订单详情开发中', icon: 'none' }); } })

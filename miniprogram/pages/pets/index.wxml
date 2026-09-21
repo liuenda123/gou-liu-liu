@@ -1,0 +1,1 @@
+<view class="container"><view wx:for="{{pets}}" wx:key="name" class="card pet"><view class="pet-icon">🐶</view><view><view class="title-small">{{item.name}}</view><view class="muted">{{item.breed}} · {{item.age}}岁</view></view></view><button class="primary-button" bindtap="addPet">+ 添加宠物</button></view>

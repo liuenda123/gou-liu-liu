@@ -1,0 +1,12 @@
+.topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:32rpx; }
+.city { color:#666; }
+.hero { background:linear-gradient(135deg,#fff0d5,#fff); }
+.hero-title { font-size:38rpx; font-weight:700; margin-bottom:14rpx; }
+.section-title { font-size:32rpx; font-weight:700; margin:30rpx 0 18rpx; }
+.walker { display:flex; align-items:center; }
+.avatar { width:88rpx; height:88rpx; border-radius:50%; background:#fff0d5; display:flex; align-items:center; justify-content:center; font-size:48rpx; margin-right:20rpx; }
+.walker-main { flex:1; }
+.walker-name { font-size:32rpx; font-weight:600; margin-bottom:8rpx; }
+.price { color:#f07818; font-weight:700; font-size:32rpx; }
+.price .muted { font-size:22rpx; font-weight:400; }
+.quick { display:flex; justify-content:space-between; }
